@@ -17,3 +17,11 @@ This project is created with express.js, prisma, mysql and apollo graphql
 
 ## Run app
 ```npm run dev``` or ```npm start```
+
+## References
+- Node.js: https://nodejs.org/en/docs
+- PrismaORM: https://www.prisma.io/docs
+- Express.js: https://expressjs.com/en/5x/api.html
+- Apollo server: https://www.apollographql.com/docs/apollo-server/
+- graphql: https://graphql.org/learn/
+- Mysql: https://dev.mysql.com/doc/refman/8.0/en/
