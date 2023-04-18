@@ -20,7 +20,7 @@ This project is created with express.js, prisma, mysql and apollo graphql
 
 ## References
 - Node.js: https://nodejs.org/en/docs
-- PrismaORM: https://www.prisma.io/docs
+- PrismaORM: https://www.prisma.io/docs/concepts/database-connectors/mysql
 - Express.js: https://expressjs.com/en/5x/api.html
 - Apollo server: https://www.apollographql.com/docs/apollo-server/
 - graphql: https://graphql.org/learn/
