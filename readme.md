@@ -4,7 +4,7 @@
 This project is created with express.js, prisma, mysql and apollo graphql
 
 ## requirements
-- Node v15.0.0
+- Node v15.0.0 or greater
 - mysql v8.36.0
 
 ## project setup
