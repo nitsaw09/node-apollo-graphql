@@ -1,0 +1,36 @@
+#import User from '../users/users.gql'
+#import Post from '../posts/posts.gql'
+
+type Query {
+   # get all users with post
+   users:[User]
+
+   # get user by user id
+   user(id: Int!): User
+   
+   # get all user post
+   posts: [Post!]!
+   
+   # get post by post id
+   post(id: Int!): Post
+}
+
+type Mutation {
+  # create user
+  createUser(name: String!, email: String!): User!
+  
+  # update user by user id
+  updateUser(id: Int!, name: String, email: String): User!
+
+  # delete user by user id
+  deleteUser(id: Int!): User!
+
+  # create user post
+  createPost(title: String!, content: String!, published: Boolean!, authorId: Int!): Post!
+  
+  # update user post by post id
+  updatePost(id: Int!, title: String, content: String, published: Boolean): Post!
+  
+  # delete post by post id
+  deletePost(id: Int!): Post!
+}
