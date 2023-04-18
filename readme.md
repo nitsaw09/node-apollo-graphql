@@ -3,6 +3,9 @@
 
 This project is created with express.js, prisma, mysql and apollo graphql
 
+## requirements
+- Node v15.0.0
+- mysql v8.36.0
 
 ## project setup
 - environment variables are present in .env.example file create a .env file and copy the .env.example variables in it.
